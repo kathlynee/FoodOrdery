@@ -11,6 +11,14 @@
 		041E7A952A264A2C00ADE8E7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041E7A942A264A2C00ADE8E7 /* ContentView.swift */; };
 		041E7A972A264A2E00ADE8E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 041E7A962A264A2E00ADE8E7 /* Assets.xcassets */; };
 		041E7A9B2A264A2E00ADE8E7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 041E7A9A2A264A2E00ADE8E7 /* Preview Assets.xcassets */; };
+		041E7AA52A26502200ADE8E7 /* PaymentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041E7AA42A26502200ADE8E7 /* PaymentHandler.swift */; };
+		041E7AA72A26506C00ADE8E7 /* CartManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041E7AA62A26506C00ADE8E7 /* CartManager.swift */; };
+		041E7AA92A26509F00ADE8E7 /* CartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041E7AA82A26509F00ADE8E7 /* CartView.swift */; };
+		041E7AAB2A2650C400ADE8E7 /* ProductCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041E7AAA2A2650C400ADE8E7 /* ProductCard.swift */; };
+		041E7AAD2A2650DB00ADE8E7 /* CardButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041E7AAC2A2650DB00ADE8E7 /* CardButton.swift */; };
+		041E7AAF2A2650EF00ADE8E7 /* ProductRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041E7AAE2A2650EF00ADE8E7 /* ProductRow.swift */; };
+		041E7AB12A2650FD00ADE8E7 /* PaymentButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041E7AB02A2650FD00ADE8E7 /* PaymentButton.swift */; };
+		041E7AB32A26516300ADE8E7 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041E7AB22A26516300ADE8E7 /* Product.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +28,14 @@
 		041E7A962A264A2E00ADE8E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		041E7A982A264A2E00ADE8E7 /* FoodOrdery.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FoodOrdery.entitlements; sourceTree = "<group>"; };
 		041E7A9A2A264A2E00ADE8E7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		041E7AA42A26502200ADE8E7 /* PaymentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentHandler.swift; sourceTree = "<group>"; };
+		041E7AA62A26506C00ADE8E7 /* CartManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartManager.swift; sourceTree = "<group>"; };
+		041E7AA82A26509F00ADE8E7 /* CartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartView.swift; sourceTree = "<group>"; };
+		041E7AAA2A2650C400ADE8E7 /* ProductCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCard.swift; sourceTree = "<group>"; };
+		041E7AAC2A2650DB00ADE8E7 /* CardButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardButton.swift; sourceTree = "<group>"; };
+		041E7AAE2A2650EF00ADE8E7 /* ProductRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductRow.swift; sourceTree = "<group>"; };
+		041E7AB02A2650FD00ADE8E7 /* PaymentButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentButton.swift; sourceTree = "<group>"; };
+		041E7AB22A26516300ADE8E7 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +52,9 @@
 		041E7A862A264A2C00ADE8E7 = {
 			isa = PBXGroup;
 			children = (
+				041E7AA32A264FD000ADE8E7 /* Model */,
+				041E7AA22A264FC300ADE8E7 /* Components */,
+				041E7AA12A264FB500ADE8E7 /* Views */,
 				041E7A912A264A2C00ADE8E7 /* FoodOrdery */,
 				041E7A902A264A2C00ADE8E7 /* Products */,
 			);
@@ -52,10 +71,10 @@
 		041E7A912A264A2C00ADE8E7 /* FoodOrdery */ = {
 			isa = PBXGroup;
 			children = (
-				041E7A922A264A2C00ADE8E7 /* FoodOrderyApp.swift */,
-				041E7A942A264A2C00ADE8E7 /* ContentView.swift */,
-				041E7A962A264A2E00ADE8E7 /* Assets.xcassets */,
+				041E7AA62A26506C00ADE8E7 /* CartManager.swift */,
+				041E7AA42A26502200ADE8E7 /* PaymentHandler.swift */,
 				041E7A982A264A2E00ADE8E7 /* FoodOrdery.entitlements */,
+				041E7A922A264A2C00ADE8E7 /* FoodOrderyApp.swift */,
 				041E7A992A264A2E00ADE8E7 /* Preview Content */,
 			);
 			path = FoodOrdery;
@@ -67,6 +86,35 @@
 				041E7A9A2A264A2E00ADE8E7 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		041E7AA12A264FB500ADE8E7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				041E7A942A264A2C00ADE8E7 /* ContentView.swift */,
+				041E7AA82A26509F00ADE8E7 /* CartView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		041E7AA22A264FC300ADE8E7 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				041E7AAA2A2650C400ADE8E7 /* ProductCard.swift */,
+				041E7AAC2A2650DB00ADE8E7 /* CardButton.swift */,
+				041E7AAE2A2650EF00ADE8E7 /* ProductRow.swift */,
+				041E7AB02A2650FD00ADE8E7 /* PaymentButton.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		041E7AA32A264FD000ADE8E7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				041E7A962A264A2E00ADE8E7 /* Assets.xcassets */,
+				041E7AB22A26516300ADE8E7 /* Product.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,8 +187,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				041E7AB12A2650FD00ADE8E7 /* PaymentButton.swift in Sources */,
+				041E7AA92A26509F00ADE8E7 /* CartView.swift in Sources */,
 				041E7A952A264A2C00ADE8E7 /* ContentView.swift in Sources */,
+				041E7AAD2A2650DB00ADE8E7 /* CardButton.swift in Sources */,
+				041E7AA72A26506C00ADE8E7 /* CartManager.swift in Sources */,
+				041E7AAF2A2650EF00ADE8E7 /* ProductRow.swift in Sources */,
+				041E7AA52A26502200ADE8E7 /* PaymentHandler.swift in Sources */,
+				041E7AB32A26516300ADE8E7 /* Product.swift in Sources */,
 				041E7A932A264A2C00ADE8E7 /* FoodOrderyApp.swift in Sources */,
+				041E7AAB2A2650C400ADE8E7 /* ProductCard.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
